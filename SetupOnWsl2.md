@@ -1,5 +1,9 @@
 - Install Windows Subsystem for Linux from Microsoft Store
 - Install Debian from Microsoft Store
+- Test version
+```
+wsl -l -v
+```
 - Run
 ```
 sudo apt update
@@ -17,7 +21,5 @@ Add in ~/.bashrc
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-- Install NVM
-
-[NVM Installation guide](https://github.com/nvm-sh/nvm#install--update-script)
-
+- [Install NVM](https://github.com/nvm-sh/nvm#install--update-script)
+- [Docker sans DockerDesktop](https://blog.lecacheur.com/2021/11/23/docker-sous-windows-wsl-2-sans-docker-desktop/)
