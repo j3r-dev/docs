@@ -23,3 +23,21 @@ export PATH=$PATH:/usr/local/go/bin
 
 - [Install NVM](https://github.com/nvm-sh/nvm#install--update-script)
 - [Docker sans DockerDesktop](https://blog.lecacheur.com/2021/11/23/docker-sous-windows-wsl-2-sans-docker-desktop/)
+
+
+#### Launch Edge navigator from WSL
+If the different command lines (like **aws sso login**) don't open automatically your windows navigator your could try the following:
+
+1. Under a windows terminal
+```cmd
+cd c:\users\YOUR_LOGIN
+mklink browser.exe "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+```
+
+2. Under your WSL environment install xdg-utils
+```bash
+sudo apt install xdg-utils -y
+# adapt YOUR_LOGIN with your own
+echo export BROWSER="/mnt/c/Users/YOUR_LOGIN/browser.exe" >> ~/.bashrc
+source ~/.bashrc
+```
