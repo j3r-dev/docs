@@ -22,6 +22,7 @@ export PATH=$PATH:/usr/local/go/bin
 ```
 
 - [Install NVM](https://github.com/nvm-sh/nvm#install--update-script)
+- [Install PyEnv]([DOCKER_IMAGE](https://github.com/pyenv/pyenv#automatic-installer)
 - [Docker sans DockerDesktop](https://blog.lecacheur.com/2021/11/23/docker-sous-windows-wsl-2-sans-docker-desktop/)
 
 
