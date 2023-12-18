@@ -15,3 +15,7 @@ kubectl run postgres-proxy -n <namespace> --image docker.io/alpine/socat -- tcp-
 
 kubectl port-forward pod/postgres-proxy 5432:5432 -n <namespace>
 ```
+- Copy file from pod to local
+```
+kubectl cp <namespace>/<pod>:/folder/fileinput /folder/fileoutput
+```
