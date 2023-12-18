@@ -13,6 +13,6 @@ psql -h <hostname> -p <port> -U <username> -d <database>
 ```
 - Dump/Restore
 ```
-pg_dump -h <hostname> -U <username> <database> | gzip > filename.gz
+pg_dump -h <hostname> -U <username> -F t <database> | gzip > filename.gz
 gunzip -c filename.gz | psql <database>
 ```
