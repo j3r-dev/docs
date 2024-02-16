@@ -11,6 +11,15 @@ sudo apt full-upgrade
 sudo apt install nano wget curl build-essential bash-completion ca-certificates zip git
 ```
 
+- Browser settings
+```
+sudo apt update && sudo apt install wslu
+```
+Then add in `~/.bashrc`:
+```
+export BROWSER=wslview
+```
+
 - Install Golang
 
 [Golang installation guide](https://go.dev/doc/install)
