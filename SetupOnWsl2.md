@@ -35,7 +35,7 @@ export PATH=$PATH:/usr/local/go/bin
 - [Docker sans DockerDesktop](https://blog.lecacheur.com/2021/11/23/docker-sous-windows-wsl-2-sans-docker-desktop/)
 
 
-#### Launch Edge navigator from WSL
+#### Launch Edge navigator from WSL (Deprecated cf Browser settings)
 If the different command lines (like **aws sso login**) don't open automatically your windows navigator your could try the following:
 
 1. Under a windows terminal
