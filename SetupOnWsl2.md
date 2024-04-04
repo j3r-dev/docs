@@ -12,6 +12,7 @@ sudo apt install nano wget curl build-essential bash-completion ca-certificates 
 ```
 
 - Browser settings
+
 [Install wslu](https://wslutiliti.es/wslu/install.html)
 Then add in `~/.bashrc`:
 ```
