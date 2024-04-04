@@ -12,9 +12,7 @@ sudo apt install nano wget curl build-essential bash-completion ca-certificates 
 ```
 
 - Browser settings
-```
-sudo apt update && sudo apt install wslu
-```
+[Install wslu](https://wslutiliti.es/wslu/install.html)
 Then add in `~/.bashrc`:
 ```
 export BROWSER=wslview
